@@ -1,13 +1,11 @@
 class PagesController < ApplicationController
-  def ntroller
+
+  def home
   end
 
-  def Pages
+  def contact
   end
 
-  def Home
-  end
-
-  def Contact
+  def work
   end
 end

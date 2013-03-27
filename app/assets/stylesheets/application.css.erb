@@ -1,0 +1,70 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+
+@font-face {
+  font-family: "Raleway_Thin";
+	src: url(<%= asset_path('Raleway_Thin.eot') %>);
+	src: local('Raleway_Thin'),
+  	url(<%= asset_path('Raleway_Thin.ttf') %>) format("truetype");
+}
+
+@font-face {
+  font-family: "Cassannet_Bold";
+	src: url(<%= asset_path('Cassannet_Bold.eot') %>);
+	src: local('Cassannet_Outline'),
+  	url(<%= asset_path('Cassannet_Bold.ttf') %>) format("truetype");
+}
+
+@font-face {
+  font-family: "Cassannet_Outline";
+	src: url(<%= asset_path('Cassannet_Outline.eot') %>);
+	src: local('Cassannet_Outline'),
+  	url(<%= asset_path('Cassannet_Outline.ttf') %>) format("truetype");
+}
+
+@font-face {
+  font-family: "Infinity";
+	src: url(<%= asset_path('Infinity.eot') %>);
+	src: local('Infinity'),
+  	url(<%= asset_path('Infinity.ttf') %>) format("truetype");
+}
+
+@font-face {
+  font-family: "Classic_Round";
+	src: url(<%= asset_path('Classic_Round_Medium.eot') %>);
+	src: local('Classic_Round_Medium'),
+  	url(<%= asset_path('Classic_Round_Medium.ttf') %>) format("truetype");
+}
+
+html {float: left; padding: 0; background-image: url(<%= asset_path("tsj_background2.png") %> );; );}
+
+#central_container {float: left; width: 100%; min-height: 820px; }
+body {position: relative;  float: left; width: 100%; position: relative; font-color: #141414 }
+
+#background{position: absolute; top: -5%; left: -1%; width: 105%; z-index: -5; }
+
+nav.main {position: absolute; right: 3%; top: 10em;  width: 9%;  font-family: "Infinity"; font-size: 1.4em; background-color: #871F78; 
+opacity: 0.4; filter:alpha(opacity=40); }
+nav.main ul {padding: .2em; margin: 0; }
+nav.main li {list-style-type: none; margin-bottom: .3em; color: white; text-align: right;}
+nav.main a {text-decoration: none; color: white;}
+nav.main li:hover {color: #a0ab87; font-weight: 800;}
+
+footer {position: relative; float: left; width: 90%; margin-left: 5%; font-family: "Infinity"; font-size: 1.4em; background-color: #871F78; 
+opacity: 0.8; filter:alpha(opacity=80); }
+footer ul {padding: .2em; margin: 0; }
+footer li {list-style-type: none; margin-bottom: .3em; color: white; width: 22%; float: left; margin-left: 2%; ;}
+footer a {text-decoration: none; color: white;}
+footer li:hover {color: #a0ab87; font-weight: 800;}

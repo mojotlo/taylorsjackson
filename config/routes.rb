@@ -1,7 +1,14 @@
 Taylorsjackson::Application.routes.draw do
+  get "blog/index"
+
+  get "blog/new"
+
+  get "blog/edit"
+
   root :to  =>  'pages#home'
   match  '/contact' => 'pages#contact'
-
+  match  '/work' => 'pages#work'
+  match  '/blog' => 'blog#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

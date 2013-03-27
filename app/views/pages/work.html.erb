@@ -1,0 +1,50 @@
+<div id="central_container">
+	<%= render :partial  => "/shared/nav" %>
+
+	<h1 class="intro central">Part 1) Public Facing Websites</h1>
+	<p class="blurb central">My interest in web development springs from it's potential for 1) creating systems that reduce tedium 2) Reducing "noise" in decisionmaking environments, helping people make better decisions more calmly and rationally.</p> 
+	
+<section class="work" id="rf">
+	<h2 class="project_title central" > Rentalfarmer.com</h2>
+	<p class="blurb central">Rentalfarmer.com <span class="caveat">(now defunct - link dead),</span> founded in 2008, was a rental listings website that utilized reviews of landlords and tenants to make the rental process more accountable. The site included a messaging system, and a blind landlord-tenant review system, in addition to profile pages for tenants, landlords, and houses. </p>
+	<%= image_tag("rentalfarmer_screenshot.png", :class => "screenshot", :id => "rentalfarmer") %> 
+
+	<p class="responsibilities central">Role: Lead Front-End Developer</p>
+	<p class="responsibilities central">Technologies Used: Adobe Illustrator + Suite, HTML/CSS, JQuery, Ruby on Rails, Git, Github</p>
+
+</section>
+
+<section class="work" id="ei">
+	<h2 class="project_title central" > empanadaintifada.com</h2>
+	<p class="blurb central">I built <a href="http://empanadaintifada.com" target="_blank">www.empanadaintifada.com </a> for the Empanada Intifada Food Truck, New Orleans' first solar-electric food truck.  Without regular locations, food trucks in New Orleans are highly dependent upon direct connections to their followers.  The site reflects the dual goals of 1) showing visitors where the truck is and will be, as well as 2) converting site visitors to followers - via social media, an email listserv, a tumblr blog, and a text message service. </p>
+<a href="http://empanadaintifada.com" target="_blank">	<%= image_tag("ei_home_screenshot.png", :class => "screenshot", :id => "empanada_intifada_home") %> </a>
+	<p class="blurb central">The site uses extensive Google Maps and Social Media integration to achieve these goals</p>
+	<a href="http://empanadaintifada.com/events" target="_blank">	<%= image_tag("ei_events_screenshot.png", :class => "screenshot", :id => "empanada_intifada_events") %> </a>
+	<p class="responsibilities central">Role: End-to-End Designer/Developer</p>
+	<p class="responsibilities central">Technologies Used: Adobe Illustrator + Suite, HTML/CSS, JQuery, Ruby on Rails, Git, Github, Google Maps API, Facebook API, Twitter API, Postgresql</p>
+</section>
+
+	<h1 class="intro central">Part 2) Organizational Knowledge Systems</h1>
+	<p class="blurb">Much of my work has focused on internal systems and tools for organizations - both non-profit and for-profit.  Since well before I added web-development to my skill-set, I have been an entrepreneur and non-profit leader, and my interest in helping organizations become better at learning stems from my own experience guiding organizations.</p> 
+				
+<section class="work" id="bcm">
+	<h2 class="project_title central" > Baptist Community Ministries Foundation - SEEK System</h2>
+	<p class="blurb central"><a href="bcm.org" target="_blank">Baptist Community Ministries Foundation</a>, a medium-sized New Orleans based private foundation, asked me to help them build a system for digitally tracking, reporting on, and evaluating their grantmaking portfolio.  In addition to project managing the development of the internal SEEK software at the heart of that effort, I was deeply involved in redesigning the information gathering and reporting processes for the organization - helping make sure they asked the right questions from the beginning.  The system is currently used to help make data-driven decisions regarding what elements of their grant-making portfolio will be focused on in the future, in addition to helping smooth out their complex day-to-day grant management. </p>
+	<%= image_tag("bcm_dashboard_screenshot.png", :class => "screenshot", :id => "bcm_dashboard") %> 
+	<p class="blurb"><span class="caveat">Mockup of informational dashboard shown - internal software not open to public </span></p>
+	<p class="responsibilities central">Role: Lead Project Manager, Contributions to Design, Development, Training, and Internal Organizational Systems</p>
+	<p class="responsibilities central">Technologies Used: Adobe Illustrator + Suite, HTML/CSS, SQL, SQLite</p>
+</section>
+
+<section class="work" id="rsd">
+	<h2 class="project_title central" > <a target="_blank" href="http://rsdla.net"> Recovery School District:</a> Pathways Instructor Evaluation</h2>
+	<p class="blurb central">The Recovery School District, a unique school district created to help failing schools in Louisiana, introduced a centralized system for teacher evaluation and feedback in 2010 - RSD Pathways.  Implementing this system among dozens of schools, and developing tools for understanding the results was a massive challenge.  As a consultant for the district, I had two primary roles.  First, I developed training materials to introduce the data entry system to teachers and principals, and led trainings in which it was used.   Second, I created a simple, flexible system that teachers, principals, and administrators could use for weekly analysis of evaluation data.  The system pulled out key indicators of performance and highlighted reporting issues, using Visual Basic and Excel. </p>
+	<%= image_tag("rsd_screenshot.png", :class => "screenshot", :id => "rsd_dashboard") %> 
+	<p class="blurb"><span class="caveat">RSD Pathways reporting system - internal software not open to public </span></p>
+	<p class="responsibilities central">Roles: Project Manager, Contributions to Design, Development, Training, and Internal Organizational Systems</p>
+	<p class="responsibilities central">Technologies Used: Microsoft VBA, Illustrator, Powerpoint, Excel, php</p>
+</section>
+
+	
+</div>
+	<%=render :partial  => "/shared/footer" %> 
