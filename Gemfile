@@ -6,8 +6,14 @@ gem 'pg'
 gem 'twitter'
 gem 'jquery-rails'
 gem 'rake', '10.0.4'
-gem 'therubyracer'
 
+
+group :assets do
+  gem 'therubyracer'
+  gem 'sass-rails'
+  gem 'coffee-rails'
+  gem 'uglifier'
+end
 
 group :development do
   gem 'rspec-rails'
