@@ -7,7 +7,7 @@ Taylorsjackson::Application.routes.draw do
 
   root :to  =>  'pages#home'
   match  '/contact' => 'pages#contact'
-  match  '/contacto' => 'pages#contacto'
+  match  '/contacto' => 'pages#contact'
   match  '/work' => 'pages#work'
   match  '/blog' => 'blog#index'
 
