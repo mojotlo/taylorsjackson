@@ -8,12 +8,13 @@ gem 'jquery-rails'
 gem 'rake', '10.0.4'
 gem 'sass', "~> 3.2.7"
 gem 'haml-rails'
+gem 'coffee-rails'
+gem 'uglifier'
 
 group :assets do
   gem 'therubyracer'
   gem 'sass-rails'
-  gem 'coffee-rails'
-  gem 'uglifier'
+
 end
 
 group :development do
