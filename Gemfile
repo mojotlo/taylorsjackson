@@ -7,6 +7,7 @@ gem 'twitter'
 gem 'jquery-rails'
 gem 'rake', '10.0.4'
 gem 'sass', "~> 3.2.7"
+gem 'haml-rails'
 
 group :assets do
   gem 'therubyracer'
