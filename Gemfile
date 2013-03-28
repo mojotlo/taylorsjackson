@@ -10,12 +10,8 @@ gem 'sass', "~> 3.2.7"
 gem 'haml-rails'
 gem 'coffee-rails'
 gem 'uglifier'
-
-group :assets do
   gem 'therubyracer'
   gem 'sass-rails'
-
-end
 
 group :development do
   gem 'rspec-rails'
