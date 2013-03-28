@@ -7,8 +7,10 @@ Taylorsjackson::Application.routes.draw do
 
   root :to  =>  'pages#home'
   match  '/contact' => 'pages#contact'
+  match  '/contacto' => 'pages#contacto'
   match  '/work' => 'pages#work'
   match  '/blog' => 'blog#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
