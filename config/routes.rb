@@ -6,7 +6,7 @@ Taylorsjackson::Application.routes.draw do
   get "blog/edit"
 
   root :to  =>  'pages#home'
-  match  '/contact' => 'pages#contact'
+  match  '/contact' => 'pages#contacto'
   match  '/work' => 'pages#work'
   match  '/blog' => 'blog#index'
 
