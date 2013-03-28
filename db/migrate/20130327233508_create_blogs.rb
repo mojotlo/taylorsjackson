@@ -2,7 +2,7 @@ class CreateBlogs < ActiveRecord::Migration
   def change
     create_table :blogs do |t|
       t.string :title
-      t.timedate :date
+      t.datetime :date
       t.text :content
       t.string :tag
 
